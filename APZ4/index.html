@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Levchenko Michael / APZ4</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      height: 100vh; /* Висота сторінки */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #f4f4f9;
+      background-image: 
+        radial-gradient(circle at 25% 25%, rgba(255, 205, 0, 0.5), transparent),
+        radial-gradient(circle at 75% 75%, rgba(0, 85, 183, 0.5), transparent),
+        radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.03), transparent);
+      background-repeat: repeat;
+      color: #333;
+    }
+    .card {
+      width: 350px;
+      background: linear-gradient(145deg, #e6e6e6, #ffffff); /* М'який градієнт */
+      border-radius: 16px;
+      box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.15), -8px -8px 20px rgba(255, 255, 255, 0.7);
+      padding: 25px;
+      text-align: center;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.2), -10px -10px 30px rgba(255, 255, 255, 0.8);
+    }
+    .card h1 {
+      font-size: 1.8rem;
+      margin: 0;
+      color: #333;
+    }
+    .card h2 {
+      margin: 10px 0;
+      font-size: 1.3rem;
+      color: #555;
+    }
+    .card p {
+      font-size: 1.1rem;
+      margin: 15px 0;
+    }
+    .card a {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      color: #ffffff;
+      background: #0044cc;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .card a:hover {
+      background: #003399;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Левченко Михайло Михайлович</h1>
+    <h2>121-21-1</h2>
+    <p>Посилання на виконану роботу:</p>
+    <a href="http://levchenko-michael.s3-website.eu-north-1.amazonaws.com/" target="_blank">Переглянути сайт</a>
+  </div>
+</body>
+</html>
